@@ -19,11 +19,10 @@ public class LoginPage extends  PageBase{
     @FindBy(name = "login")
     public WebElement loginButton;
 
-    @FindBy(id = "hideLogin")
+    @FindBy(xpath = "//a[.='Sign up']")
     public WebElement signUpLink;
 
-    @FindBy(xpath = "//span[.='Your Music']")
-    public WebElement yourMusicLink;
+
 
 
     public void login(String username, String pass){
@@ -31,6 +30,7 @@ public class LoginPage extends  PageBase{
         passwordField.sendKeys(pass);
         loginButton.click();
     }
+
 
 
 }
