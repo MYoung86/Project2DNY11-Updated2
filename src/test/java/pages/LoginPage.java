@@ -25,8 +25,8 @@ public class LoginPage extends  PageBase{
 
 
 
-    public void login(String username, String pass){
-        useremailField.sendKeys(username);
+    public void login(String useremail, String pass){
+        useremailField.sendKeys(useremail);
         passwordField.sendKeys(pass);
         loginButton.click();
     }

@@ -8,6 +8,8 @@ import utilities.CreateDriver;
 
 public class LoginTests extends TestBase {
 
+
+
     @Test (groups = {"smoke"})
     public void appHealthCheck(){
 

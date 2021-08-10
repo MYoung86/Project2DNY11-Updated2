@@ -27,9 +27,9 @@ public class TestBase {
     }
 
 
-    @AfterMethod  (alwaysRun = true)
-    public void tearDownMethod(){
-
-        CreateDriver.quitDriver();
-    }
+//    @AfterMethod  (alwaysRun = true)
+//    public void tearDownMethod(){
+//
+//        CreateDriver.quitDriver();
+//    }
 }
